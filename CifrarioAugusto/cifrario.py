@@ -12,9 +12,6 @@ numChiaro = []
 numChiave = []
 codCifrato = []
 
-print(len(chiaro))
-print(len(chiave))
-
 for e in chiaro:
     x = (ord(e) - 97) + 1
     numChiaro.append(x)
@@ -28,13 +25,9 @@ for w in numChiaro:
     if numChiave[i] <= numChiaro[i]:
         c = 26 + (numChiave[i] - numChiaro[i])
         codCifrato.append(c)
-        print("i ", i)
-        print("c ", c)
     elif numChiave[i] > numChiaro[i]:
         c = numChiave[i] - numChiaro[i]
         codCifrato.append(c)
-        print("i ", i)
-        print("c", c)
     i = i + 1
 
 
