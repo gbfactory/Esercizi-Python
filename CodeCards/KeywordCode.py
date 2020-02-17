@@ -46,5 +46,5 @@ for i in decodeMsg:
         print(" ", end = "")
     print(i, end = "")
 
-# ESEMPIO MESSAGGIO CIFRATO
-# sbf hfywmpe ump jfqqclf swm dq efrmyq
+#sbfhfywmpeumpjfqqclfswmdqefrmyq
+#sbf hfywmpe ump jfqqclf swm dq efrmyq
