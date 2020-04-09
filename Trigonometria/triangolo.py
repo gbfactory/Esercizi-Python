@@ -6,8 +6,7 @@ import turtle
 import math
 
 # Dati iniziali del problema
-gradiA = 50
-posizioneAngolo = "B"
+gradiA = 50 # L'angolo è posizionato in B
 ipotenusaBC = 5
 
 # Converto gradi in radianti
