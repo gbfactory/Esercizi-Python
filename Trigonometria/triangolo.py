@@ -26,16 +26,21 @@ print ("BC: ", ipotenusaBC)
 # Disegno il triangolo con Turtle
 tartaruga = turtle.Turtle()
 
+tartaruga.write("A", align="right", font=("Arial", 10))
+
 # Disegno il cateto AC (misure amplificate per scala)
 tartaruga.forward(catetoAC * 30)
- 
+tartaruga.write("B", align="left", font=("Arial", 10))
+
 # Disegno il cateto AB (misure amplificate per scala)
 tartaruga.left(90)
 tartaruga.forward(catetoAB * 30)
+tartaruga.write("C", align="center", font=("Arial", 10))
 
 # Disegno l'ipotenusa (misure amplificate per scala)
 tartaruga.left((180 - gradiA))
 tartaruga.forward(ipotenusaBC * 30)
 
 # Finisco la tartaruga
+tartaruga.hideturtle()
 turtle.done()
